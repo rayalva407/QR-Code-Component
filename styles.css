@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  /* border: 2px solid red; */
 }
 
 body {
@@ -9,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: red;
+  background-color: hsl(212, 45%, 89%);
 }
 
 #card {
@@ -17,24 +18,27 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  background-color: hsl(0, 0%, 100%);
   padding: 10px;
   width: 25%;
-  border-radius: 3%;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px #00000027;
 }
 
 #qr-code {
   max-width: 100%;
   max-height: 100%;
-  border-radius: 3%;
+  border-radius: 20px;
 }
 
 #text {
+  font-size: 15px;
   text-align: center;
   padding: 20px;
 }
 
 .attribution {
+  margin-top: 90px;
   font-size: 11px;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
