@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Outfit', sans-serif;
   /* border: 2px solid red; */
 }
 
@@ -11,6 +12,16 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: hsl(212, 45%, 89%);
+
+}
+
+h2 {
+  font-weight: 700;
+}
+
+p {
+  color: #00000096;
+  font-weight: 400;
 }
 
 #card {
@@ -20,15 +31,15 @@ body {
   align-items: center;
   background-color: hsl(0, 0%, 100%);
   padding: 10px;
-  width: 25%;
-  border-radius: 20px;
-  box-shadow: 10px 10px 40px #00000027;
+  width: 22%;
+  border-radius: 13px;
+  box-shadow: 10px 10px 40px #00000044;
 }
 
 #qr-code {
   max-width: 100%;
   max-height: 100%;
-  border-radius: 20px;
+  border-radius: 13px;
 }
 
 #text {
@@ -42,3 +53,14 @@ body {
   font-size: 11px;
 }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 376px) {
+  
+  #card {
+    width: 80%;
+  }
+
+  #text {
+    font-size: 15px
+  }
+}
