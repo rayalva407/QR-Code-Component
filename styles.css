@@ -43,7 +43,7 @@ p {
 }
 
 #text {
-  font-size: 15px;
+  font-size: 1rem;
   text-align: center;
   padding: 20px;
 }
@@ -61,6 +61,6 @@ p {
   }
 
   #text {
-    font-size: 15px
+    font-size: .9rem;
   }
 }
